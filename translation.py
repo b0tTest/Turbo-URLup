@@ -48,7 +48,8 @@ URL | filename | username | password """
 <b>User Name : {} </b>
 <b>Telegram ID :</b> <code>{}</code>
 <b>Plan name :</b> Free User
-<b>Expires on :</b> 31/12/2020"""
+<b>Expires on :</b> Until my Death
+<b>Donate :</b> If you Like to Donate➠ @OO7ROBot"""
     HELP_USER = """How to Use me 🤔
     
 1. <b>Send url</b>
@@ -69,15 +70,15 @@ URL | filename | username | password """
 """
     About = """Hi {},
   
-<b>○ My Name : URLUploader bot
-○ Creator : <a href="https://telegram.dog/oo7robot">This Person</a>
-○ Credits : Everyone in this journey
-○ Language : Python 3
-○ Library : Pyrogram asyncio 
-○ Cloned From : Spechide Source code
-○ Source Code : ☛ <a href="https://github.com">click here</a>
-○ Server : Heroku
-○ Build Status : Beta v2 </b>
+<b>➠ My Name : URLUploader bot</b>
+➠ Creator : <a href="https://telegram.dog/oo7robot">ME</a>
+➠ Credits : Everyone in this journey
+➠ Language : Python 3
+➠ Library : Pyrogram asyncio 
+➠ Cloned From : Spechide Source code
+➠ Source Code : ☛ <a href="https://github.com">click here</a>
+➠ Server : Heroku
+➠ Build Status : Beta v1 
 
 """
 
