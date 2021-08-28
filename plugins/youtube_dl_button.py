@@ -28,7 +28,7 @@ from translation import Translation
 import pyrogram
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
-from helper_funcs.chat_base import TRChatBase
+#from helper_funcs.chat_base import TRChatBase
 from helper_funcs.display_progress import progress_for_pyrogram, humanbytes
 from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
@@ -325,7 +325,7 @@ async def youtube_dl_call_back(bot, update):
             media_album_p = []
             if images is not None:
                 i = 0
-                caption = "© @SerialCoIn"
+                caption = "© @MyTestBotZ"
                 if is_w_f:
                     caption = "/upgrade to Plan D to remove the watermark\n© @AnyDLBot"
                 for image in images:
