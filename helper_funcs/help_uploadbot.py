@@ -33,7 +33,7 @@ def DownLoadFile(url, file_name, chunk_size, client, ud_type, message_id, chat_i
                 downloaded_size += chunk_size
             if client is not None:
                 if ((total_size // downloaded_size) % 5) == 0:
-                    time.sleep(0.3)
+                    time.sleep(0.5)
                     try:
                         client.edit_message_text(
                             chat_id,
