@@ -14,7 +14,7 @@ telethon
 tgcrypto
 hurry.filesize
 
-git+https://github.com/Esther-Lopez/yt-dl.git
+#git+https://github.com/Esther-Lopez/yt-dl.git
 
 #git+https://github.com/prgofficial/YouTubeDL
 
@@ -24,3 +24,4 @@ git+https://github.com/Esther-Lopez/yt-dl.git
 
 #git+https://git.ghnou.su/mir/youtube-dl.git
 
+git+https://github.com/KaratekHD/youtube-dl.git
