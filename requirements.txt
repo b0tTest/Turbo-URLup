@@ -4,7 +4,11 @@ git+git://github.com/google/chatbase-python.git
 hachoir
 numpy
 Pillow
-https://github.com/prgofficial/pyrogram/archive/asyncio.zip
+
+https://github.com/Esther-Lopez/pyrogram-old/archive/refs/heads/asyncio-dev.zip
+#https://github.com/prgofficial/pyrogram/archive/asyncio.zip
+
+
 #requests
 requests==2.24.0
 telethon
