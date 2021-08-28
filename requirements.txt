@@ -14,7 +14,12 @@ requests==2.24.0
 telethon
 tgcrypto
 hurry.filesize
-git+git://github.com/ytdl-org/youtube-dl
+
+
+git+https://github.com/prgofficial/YouTubeDL
+
+#git+git://github.com/ytdl-org/youtube-dl
+
 #https://github.com/opendoor-labs/heroku-buildpack-p7zip
 #git+git://github.com/nao20010128nao/ytdl-patched
 #git+https://git.ghnou.su/mir/youtube-dl.git
