@@ -59,6 +59,7 @@ async def echo(bot, update):
             await update.reply_text("Something Wrong. Contact my Master @OO7ROBot")
             return
     logger.info(update.from_user)
+    intmsg = await update.reply_text("Analyzing given link...", quote=True)
     url = update.text
     youtube_dl_username = None
     youtube_dl_password = None
