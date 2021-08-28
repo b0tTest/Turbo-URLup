@@ -1,6 +1,5 @@
 aiohttp
 beautifulsoup4
-git+git://github.com/google/chatbase-python.git
 hachoir
 numpy
 Pillow
@@ -15,12 +14,13 @@ telethon
 tgcrypto
 hurry.filesize
 
+git+https://github.com/Esther-Lopez/yt-dl.git
 
 #git+https://github.com/prgofficial/YouTubeDL
 
 #git+git://github.com/ytdl-org/youtube-dl
 
 #https://github.com/opendoor-labs/heroku-buildpack-p7zip
-git+git://github.com/nao20010128nao/ytdl-patched
+
 #git+https://git.ghnou.su/mir/youtube-dl.git
 
