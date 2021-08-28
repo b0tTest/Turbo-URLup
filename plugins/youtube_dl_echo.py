@@ -277,7 +277,7 @@ async def echo(bot, update):
         thumb_image_path = DownLoadFile(
             thumbnail_image,
             Config.DOWNLOAD_LOCATION + "/" +
-            str(update.from_user.id) + ".webp",
+            str(update.from_user.id) + ".jpg",
             Config.CHUNK_SIZE,
             None,  # bot,
             Translation.DOWNLOAD_START,
