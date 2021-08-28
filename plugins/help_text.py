@@ -73,7 +73,7 @@ async def start(bot, update):
         chat_id=update.chat.id,
         text=Translation.START_TEXT.format(update.from_user.first_name),
         parse_mode="html",
-        disable_web_page_preview=True,
+      #  disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
