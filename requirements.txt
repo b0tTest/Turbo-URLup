@@ -5,7 +5,7 @@ hachoir
 numpy
 Pillow
 
-https://github.com/Esther-Lopez/pyrogram-old/archive/refs/heads/asyncio-dev.zip
+https://github.com/Esther-Lopez/py18/archive/master.zip
 #https://github.com/prgofficial/pyrogram/archive/asyncio.zip
 
 
