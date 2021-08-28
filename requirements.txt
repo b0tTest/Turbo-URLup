@@ -21,6 +21,6 @@ hurry.filesize
 #git+git://github.com/ytdl-org/youtube-dl
 
 #https://github.com/opendoor-labs/heroku-buildpack-p7zip
-#git+git://github.com/nao20010128nao/ytdl-patched
-git+https://git.ghnou.su/mir/youtube-dl.git
+git+git://github.com/nao20010128nao/ytdl-patched
+#git+https://git.ghnou.su/mir/youtube-dl.git
 
