@@ -38,7 +38,7 @@ async def help_message_f(client, message):
     #message_id = 99
     # display the /help
     
-    await message.reply_text("""join this Channel forr help-- @SerialCoIn\n""", disable_web_page_preview=True)
+    await message.reply_text("""join this Channel forr help-- @MyTestBotZ\n""", disable_web_page_preview=True)
 
 
 async def rename_message_f(client, message):
@@ -46,12 +46,12 @@ async def rename_message_f(client, message):
     inline_keyboard.append([
         pyrogram.InlineKeyboardButton(
             text="read this?",
-            url="http://t.me/SerialCoIn"
+            url="http://t.me/MyTestBotZ/26"
         )
     ])
     reply_markup = pyrogram.InlineKeyboardMarkup(inline_keyboard)
     await message.reply_text(
-        "please use @renamebot",
+        "please use @TGrenamebot",
         quote=True,
         reply_markup=reply_markup
     )
