@@ -26,4 +26,4 @@ hurry.filesize
 
 #git+https://github.com/KaratekHD/youtube-dl.git
 #git+https://github.com/lrvick/youtube-dl.git
-git+https://github.com/TGExplore/youtube-dl-1
+git+https://github.com/TGExplore/youtube-dl.git
