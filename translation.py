@@ -71,14 +71,14 @@ URL | filename | username | password """
     About = """Hi {},
   
 <b>➠ My Name : URLUploader bot</b>
-➠ Creator : <a href="https://telegram.dog/oo7robot">ME</a>
+➠ Creator : <a href="https://telegram.dog/oo7robot"> ME 😌 </a>
 ➠ Credits : Everyone in this journey
 ➠ Language : Python 3
 ➠ Library : Pyrogram asyncio 
 ➠ Cloned From : Spechide Source code
-➠ Source Code : ☛ <a href="https://github.com">click here</a>
+➠ Source Code : ☛ <a href="https://github.com/SpEcHiDe/AnyDLBot"> Click Here </a>
 ➠ Server : Heroku
-➠ Build Status : Beta v1 
+➠ Build Status : V1 
 
 """
 
@@ -110,5 +110,8 @@ You can use /rename command after receiving file to rename it with custom thumbn
 Free users only 1 request per 30 minutes.
 /upgrade or Try 1800 seconds later."""
     SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
-    AUTH_CHANNEL_TEXT = "You must Join Updates Channel to use me."
+    AUTH_CHANNEL_TEXT = """**You must Join Updates Channel to use me😌.**
+    
+    Due to Overload, Only Channel Subscribers can use this Bot!🤷
+    """
     DOWNLOADING = "**AnaliZing ⏳...**"
