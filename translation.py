@@ -112,6 +112,6 @@ Free users only 1 request per 30 minutes.
     SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
     AUTH_CHANNEL_TEXT = """**You must Join Updates Channel to use me😌.**
     
-    Due to Overload, Only Channel Subscribers can use this Bot!🤷
+    <i>Due to Overload, Only Channel Subscribers can use this Bot!🤷</i>
     """
     DOWNLOADING = "**AnaliZing ⏳...**"
