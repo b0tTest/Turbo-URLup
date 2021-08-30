@@ -39,4 +39,10 @@ class Config(object):
     UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
     AUTH_CHANNEL = "@myTestbotz"
 
+    #Log channel for banning spammers
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", None))
+    # set timeout for subprocess
+    PROCESS_MAX_TIMEOUT = int(os.environ.get("TIME_LIMIT", 30))
+    # dict to hold the ReQuest queue
+    ADL_BOT_RQ = {}
     
