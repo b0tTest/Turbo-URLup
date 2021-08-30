@@ -42,7 +42,7 @@ class Config(object):
     #Log channel for banning spammers
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", None))
     # set timeout for subprocess
-    PROCESS_MAX_TIMEOUT = int(os.environ.get("TIME_LIMIT", 1))
+    PROCESS_MAX_TIMEOUT = int(os.environ.get("TIME_LIMIT", 3))
     # dict to hold the ReQuest queue
     ADL_BOT_RQ = {}
     
