@@ -115,3 +115,13 @@ Free users only 1 request per 30 minutes.
     <i>Due to Overload, Only Channel Subscribers can use this Bot!🤷</i>
     """
     DOWNLOADING = "**AnaliZing ⏳...**"
+    
+    CHECKING_LINK = "<code>Analysing Your Link</code>⏳"
+    BANNED_USER_TEXT = "<code>You are Banned!</code>"
+    REPORT_SITE_TEXT = "<code>Sorry not uploading in this site here because this site is reporting site.</code>"
+    SOMETHING_WRONG = "<code>Something Wrong. Try again.</code>"
+    FORCE_SUBSCRIBE_TEXT = """**You must Join Updates Channel to use me😌.**
+    
+    <i>Due to Overload, Only Channel Subscribers can use this Bot!🤷</i>
+    """
+    
