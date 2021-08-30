@@ -49,7 +49,8 @@ async def echo(bot, update):
         except UserNotParticipant:
             #await update.reply_text(f"Join @{update_channel} To Use Me")
             await update.reply_text(
-                text="**Join My Updates Channel to use ME 😎 🤭**",
+                #text="**Join My Updates Channel to use ME 😎 🤭**",
+                text=Translation.AUTH_CHANNEL_TEXT,
                 reply_markup=InlineKeyboardMarkup([
                     [ InlineKeyboardButton(text="Join My Updates Channel", url=f"https://t.me/{update_channel}")]
               ])
@@ -71,7 +72,7 @@ async def echo(bot, update):
             file_name = url_parts[1]
         elif len(url_parts) == 4:
             url = url_parts[0]
-            file_name = url_parts[1]
+            file_name = url_parts[T1]
             youtube_dl_username = url_parts[2]
             youtube_dl_password = url_parts[3]
         else:
