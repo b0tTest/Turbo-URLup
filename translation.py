@@ -3,8 +3,7 @@ class Translation(object):
 a simple Telegram URL Upload Bot!
 it can <b>UPLOAD almost all Direct Links to Telegram as File/Video</b>
  
-🚨 Dont Upload PORN video🔞 Links you will Get PERMANENT BAN 🚨
-
+🚨 <i> No Guarantee , No Warranty & 0 Limitations </i>
 
 ┈┈┈••💙✿❤✿💚••┈┈┈
 """
@@ -65,7 +64,7 @@ URL | filename | username | password """
    
    thats it, I will Do Rest of it 😌
 
-
+<i> ⭕ Creater : @OO7ROBot </i>
 <b>check /about to Know about this bot</b>
 """
     About = """Hi {},
