@@ -291,6 +291,7 @@ async def echo(bot, update):
             #im.save(thumb_image_path.replace(".webp", ".jpg"), "jpeg")
         #else:
             #thumb_image_path = None
+        await intmsg.delete()
         await bot.send_message(
             chat_id=update.chat.id,
             text=Translation.FORMAT_SELECTION.format(thumbnail) + "\n" + Translation.SET_CUSTOM_USERNAME_PASSWORD,
@@ -316,6 +317,7 @@ async def echo(bot, update):
             )
         ])
         reply_markup = pyrogram.InlineKeyboardMarkup(inline_keyboard)
+        await intmsg.delete()
         await bot.send_message(
             chat_id=update.chat.id,
             text=Translation.FORMAT_SELECTION.format(""),
