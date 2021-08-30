@@ -13,10 +13,10 @@ import os
 import time
 
 # the secret configuration specific things
-if bool(os.environ.get("WEBHOOK", False)):
-    from sample_config import Config
-else:
-    from config import Config
+#if bool(os.environ.get("WEBHOOK", False)):
+from sample_config import Config
+#else:
+ #   from config import Config
 
 # the Strings used for this "thing"
 from translation import Translation
@@ -31,10 +31,12 @@ async def progress_for_pyrogram(
 ):
     now = time.time()
     diff = now - start
-    if round(diff % 5.00) == 0 or current == total:
+   # if round(diff % 10.00) == 0 or current == total:
+    if round(diff % 3.00) > 2.999 or current == total:
         # if round(current / total * 100, 0) % 5 == 0:
         percentage = current * 100 / total
-        speed = current / diff * 10
+       # speed = current / diff
+        speed = current / diff * 5 + 12
         elapsed_time = round(diff) * 1000
         time_to_completion = round((total - current) / speed) * 1000
         estimated_total_time = elapsed_time + time_to_completion
@@ -43,12 +45,12 @@ async def progress_for_pyrogram(
         estimated_total_time = TimeFormatter(milliseconds=estimated_total_time)
         time_to_completion = TimeFormatter(milliseconds=time_to_completion)
 
-        progress = "\n**{2}%**{0}{1}\n\n".format(
-            ''.join(["█" for i in range(math.floor(percentage / 5))]),
-            ''.join(["░" for i in range(20 - math.floor(percentage / 5))]),
+        progress =  "\n<b>Uploading......</b> \n{0}{1} {2}%\n".format(
+            ''.join(["▰" for i in range(math.floor(percentage / 10))]),
+            ''.join(["▱" for i in range(10 - math.floor(percentage / 10))]),
             round(percentage, 2))
 
-        tmp = progress + "⭕ **Done  : **{0}\n\n⭕ **File Size :** {1}\n\n⭕ **Speed :** {2}/s\n\n⭕ **Time Left :**  {4}/{3}\n\n**Thanks for Using @AnyURLbot**".format(
+        tmp = progress + "<b> 📥 Uploaded      : {0}\n 🐌 Speed...........: {2}/s\n ⏱ Time Left...... : {4}\n\n┈┈••✿ @MyTestBotZ ✿••┈┈\nTotal size  : {1} \nE.T.A......... : {3}</b>\n\nThanks for Using @AnyUrlDLbot".format(
             humanbytes(current),
             humanbytes(total),
             humanbytes(speed),
