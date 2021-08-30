@@ -77,12 +77,12 @@ async def start(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('💡 Update Channel', url='https://t.me/MyTestBotZ'),
+                    InlineKeyboardButton('Channel', url='https://t.me/MyTestBotZ'),
                 #    InlineKeyboardButton('👨‍💻 Creator', url='https://t.me/OO7ROBOT')
                # ],
               #  [
-                    InlineKeyboardButton('🖥 Other Bots', url='https://t.me/myTestbotz/15'),
-                    InlineKeyboardButton('👨‍💻 Creator', url='https://t.me/OO7ROBOT')
+                    InlineKeyboardButton('Other Bots', url='https://t.me/myTestbotz/15'),
+                    InlineKeyboardButton('Creator', url='https://t.me/OO7ROBOT')
                 ],
                 [
           
