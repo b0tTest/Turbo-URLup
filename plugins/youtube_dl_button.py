@@ -17,10 +17,10 @@ import time
 from datetime import datetime
 
 # the secret configuration specific things
-if bool(os.environ.get("WEBHOOK", False)):
-    from sample_config import Config
-else:
-    from config import Config
+#if bool(os.environ.get("WEBHOOK", False)):
+from sample_config import Config
+#else:
+#    from config import Config
 
 # the Strings used for this "thing"
 from translation import Translation
@@ -103,6 +103,8 @@ async def youtube_dl_call_back(bot, update):
         message_id=update.message.message_id
     )
     description = Translation.CUSTOM_CAPTION_UL_FILE
+    
+
     if "fulltitle" in response_json:
         description = response_json["fulltitle"][0:1021]
         # escape Markdown and special characters
@@ -148,6 +150,7 @@ async def youtube_dl_call_back(bot, update):
         command_to_exec.append(youtube_dl_password)
     command_to_exec.append("--no-warnings")
     # command_to_exec.append("--quiet")
+    command_to_exec.append("--restrict-filenames")
     if "hotstar" in youtube_dl_url:
         command_to_exec.append("--geo-bypass-country")
         command_to_exec.append("IN")
@@ -200,7 +203,7 @@ async def youtube_dl_call_back(bot, update):
                 is_w_f,
                 Config.DEF_WATER_MARK_FILE,
                 300,
-                1
+                9
             )
             logger.info(images)
             await bot.edit_message_text(
@@ -243,6 +246,7 @@ async def youtube_dl_call_back(bot, update):
                     img.resize((90, height))
                 img.save(thumb_image_path, "JPEG")
                 # https://pillow.readthedocs.io/en/3.1.x/reference/Image.html#create-thumbnails
+                
             else:
                 thumb_image_path = None
             start_time = time.time()
@@ -325,9 +329,9 @@ async def youtube_dl_call_back(bot, update):
             media_album_p = []
             if images is not None:
                 i = 0
-                caption = "© @MyTestBotZ"
+                caption = "🖼 ScreenShoted by @TG_ScreenShotBot"
                 if is_w_f:
-                    caption = "/upgrade to Plan D to remove the watermark\n© @AnyDLBot"
+                    caption = "/upgrade to Plan D to remove the watermark\n"
                 for image in images:
                     if os.path.exists(image):
                         if i == 0:
