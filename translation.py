@@ -1,5 +1,5 @@
 class Translation(object):
-    START_TEXT = """<b>Hai {} </b><a href="https://telegra.ph/file/5c1dcb766caa4731b261c.jpg">,</a>
+    START_TEXT = """<b>Hai {} </b><a href="https://telegra.ph/file/5c1dcb766caa4731b261c.jpg"> </a>
 a simple Telegram URL Upload Bot!
 it can <b>UPLOAD almost all Direct Links to Telegram as File/Video</b>
  
