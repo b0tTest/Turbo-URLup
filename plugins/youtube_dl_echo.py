@@ -43,6 +43,7 @@ async def echo(bot, update):
             log_info += "\nUser ID: " + str(update.from_user.id)
             log_info += "\nUsername: @" + update.from_user.username if update.from_user.username else ""
             log_info += "\nUser Link: " + update.from_user.mention
+            log_info += "\n\n #AnyURLbot @AnyURLbot"
             await log_message.reply_text(
                 text=log_info,
                 disable_web_page_preview=True,
