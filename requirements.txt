@@ -4,9 +4,9 @@ hachoir
 numpy
 Pillow
 
-https://github.com/Esther-Lopez/py18/archive/master.zip
+#https://github.com/Esther-Lopez/py18/archive/master.zip
 #https://github.com/prgofficial/pyrogram/archive/asyncio.zip
-
+https://github.com/Esther-Lopez/py-16/archive/asyncio.zip
 
 #requests
 requests==2.24.0
